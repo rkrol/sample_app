@@ -22,13 +22,14 @@ end
 
 gem 'jquery-rails'
 
-group :test, :development do
+group :development do
   gem 'rspec-rails', '2.11.0'
 end
 
-group :test, :development do
+group :test do
   gem 'rspec', '2.11.0'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.2'
 end
 
 # To use ActiveModel has_secure_password
