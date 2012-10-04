@@ -6,6 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'gravatar_image_tag', '1.1.3'
 
 
 # Gems used only for assets and not required
@@ -31,6 +32,7 @@ group :test do
   gem 'rspec', '2.11.0'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.2'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 # To use ActiveModel has_secure_password
